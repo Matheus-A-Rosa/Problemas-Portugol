@@ -1,0 +1,167 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		inteiro idade, op
+
+		inteiro op1
+
+		inteiro media1, media2
+
+		inteiro contador=1
+
+		real quantidade
+
+
+
+		op1=0
+
+		quantidade=0.0
+
+
+
+		media1=0
+
+		media2=0
+
+
+
+		escreva("Olá usuário digite sua idade \n")
+
+
+
+		enquanto(contador <=15)
+
+		{
+
+		escreva("idade"+ " "+ contador+ ": ")
+
+		leia(idade)
+
+		se(idade<=0)
+
+		{
+
+			escreva("valor inválido tente novamente")
+
+			pare
+
+		}
+
+		escreva("opinião"+ " "+ contador+ ": ")
+
+		leia(op)
+
+
+
+		se(op==3)
+
+		{
+
+			op1=op1+idade
+
+			media1=media1+1
+
+		}
+
+
+
+
+
+
+
+		se(op==1)
+
+		{
+
+			
+
+			media2=media2+1
+
+		}
+
+
+
+
+
+		se(op==2)
+
+		{
+
+			 quantidade=quantidade + 1
+
+		}
+
+
+
+		contador++
+
+		}
+
+
+
+		se(media1>0)
+
+		{
+
+			op1=op1/media1
+
+		}
+
+
+
+		se(quantidade>=1)
+
+		{
+
+			quantidade=quantidade*100/15
+
+		}
+
+
+
+		limpa()
+
+		escreva("A média das idades das pessoas que responderam excelente foi de: "+op1+"\n")
+
+
+
+		escreva("A quantidade de pessoas que responderam regular foi de: "+media2+ " pessoas"+ "\n")
+
+
+
+		escreva("A percentagem de pessoas que responderam bom foi de: "+quantidade+"%")
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+	}
+
+}

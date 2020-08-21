@@ -1,0 +1,47 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		real valor_produto, lucro, venda
+
+
+
+		escreva("Digite o valor do produto para calcular o lucro? ")
+
+		leia(valor_produto)
+
+		se (valor_produto<20)
+
+		{
+
+			lucro = valor_produto*0.45
+
+			venda = valor_produto + lucro
+
+			escreva("O valor da venda vai ser de "+venda)
+
+		}
+
+		senao 
+
+		{
+
+			lucro = valor_produto*0.30
+
+			venda = valor_produto + lucro
+
+			escreva("O valor da venda vai ser de "+venda)
+
+		}
+
+		
+
+	}
+
+}

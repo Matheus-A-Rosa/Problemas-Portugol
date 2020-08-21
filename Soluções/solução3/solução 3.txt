@@ -1,0 +1,97 @@
+programa
+
+{
+
+	inclua biblioteca Matematica --> mat
+
+	
+
+	funcao inicio()
+
+	{
+
+		real numero1, numero2
+
+		real raiz
+
+		inteiro quadrado
+
+
+
+		escreva("Escolha o primeiro valor: ")
+
+		leia(numero1)
+
+
+
+		escreva("Escolha o segundo valor: ")
+
+		leia(numero2)
+
+
+
+		se(numero1>numero2)
+
+		{
+
+		raiz = mat.raiz(numero1, 2.0)
+
+		
+
+		escreva("A raíz quadrada de ", numero1 , " é: ", raiz, "\n")
+
+
+
+		
+
+		quadrado= numero2*numero2
+
+		escreva("O valor "+numero2+" ao quadrado é igual a: "+quadrado)
+
+		}
+
+
+
+		
+
+		se(numero2>numero1)
+
+		{
+
+			raiz = mat.raiz(numero2, 2.0)
+
+
+
+			escreva("A raíz quadrada de ", numero2 , " é: ", raiz, "\n")
+
+
+
+
+
+			quadrado= numero1*numero1
+
+		escreva("O valor "+numero1+" ao quadrado é igual a; "+quadrado)
+
+		}
+
+
+
+		se(numero1==numero2)
+
+		{
+
+			escreva("Os números são iguais")
+
+		}
+
+		
+
+
+
+	
+
+
+
+	}
+
+}

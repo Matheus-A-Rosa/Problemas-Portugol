@@ -1,0 +1,103 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		cadeia nome, sexo
+
+		inteiro idade
+
+		cadeia resposta1, resposta2
+
+
+
+		escreva("Olá usuário digite seu nome: ")
+
+		leia(nome)
+
+		limpa()
+
+
+
+		escreva("Agora digite seu sexo: ")
+
+		leia(sexo)
+
+		limpa()
+
+
+
+		escreva("Finalizando nos diga sua idade: ")
+
+		leia(idade)
+
+		limpa()
+
+
+
+		se (sexo=="Feminino" ou sexo=="feminino" ou sexo=="F" ou sexo=="f")
+
+		{
+
+
+
+
+
+			
+
+
+
+			se(idade<=24)
+
+		{
+
+				escreva("Parabéns"+" "+nome+" você foi aceita")
+
+			}
+
+
+
+
+
+			senao
+
+			{
+
+				escreva("Desculpe "+nome+" você não foi aceita")
+
+			}
+
+
+
+			
+
+		
+
+		}
+
+
+
+		senao
+
+		{
+
+			se (sexo=="Masculino" ou sexo=="masculino" ou sexo=="M" ou sexo=="m")
+
+			escreva("Desculpe"+" "+nome+" você não foi aceito")
+
+		}
+
+	
+
+		
+
+
+
+	}
+
+}

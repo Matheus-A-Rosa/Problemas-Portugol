@@ -1,0 +1,113 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		inteiro a,b,c
+
+
+
+	escreva("Digite o primeiro valor: ")
+
+	leia(a)
+
+
+
+
+
+	escreva("Digite o segundo valor: ") 
+
+	leia(b)
+
+
+
+
+
+	escreva("Digite o terceiro valor: ")
+
+	leia(c)
+
+
+
+
+
+	se (a>b e a>c e b>c e c<b)
+
+	{
+
+		escreva(a+"\n"+b+"\n"+c)
+
+		
+
+	}
+
+
+
+	se (a>b e b<a  e a>c e b<c)
+
+	{
+
+		escreva(a+"\n"+c+"\n"+b)
+
+		
+
+	}
+
+
+
+	se (b>a e b>c e a>c e c<a)
+
+	{
+
+		escreva(b+"\n"+a+"\n"+c)
+
+	}
+
+
+
+	se (b>c e c<b e c>a e a<c)
+
+	{
+
+		escreva(b+"\n"+c+"\n"+a)
+
+	}
+
+
+
+	se (c>a e c>b e a>b e b<a)
+
+	{
+
+		escreva(c+"\n"+a+"\n"+b)
+
+	}
+
+
+
+	se (c>b e b<c e b>a e a<b)
+
+	{
+
+		escreva(c+"\n"+b+"\n"+a)
+
+	}
+
+
+
+
+
+
+
+
+
+	
+
+	}
+
+}

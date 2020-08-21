@@ -1,0 +1,171 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		inteiro contador=1
+
+
+
+		inteiro idade
+
+		cadeia ec
+
+		inteiro quantidadep=0
+
+		inteiro quantidadep1=0
+
+		inteiro quantidadep2=0
+
+		inteiro quantidadep3=0
+
+		inteiro quantidade1=0
+
+		inteiro quantidade2=0
+
+		inteiro quantidade3=0
+
+		inteiro media=0
+
+		real quantidade=0.0
+
+		inteiro quantidadetotal
+
+
+
+		escreva("Insira sua idade e depois o estado civil: \n")
+
+		
+
+
+
+		enquanto(contador <=999)
+
+		{
+
+		escreva("idade"+ " "+ contador+ ": ")
+
+		leia(idade)
+
+		se(idade<0)
+
+		{
+
+			escreva("valor inválido tente novamente")
+
+			pare
+
+		}
+
+		escreva("estado civil"+ " "+ contador+ ": ")
+
+		leia(ec)
+
+
+
+
+
+		se(ec=="C" ou ec=="c")
+
+		{
+
+			quantidade1=quantidade1+1
+
+			quantidadep3=quantidadep3+1
+
+		}
+
+
+
+		se(ec=="S" ou ec=="s")
+
+		{
+
+			quantidade2=quantidade2+1
+
+			quantidadep2=quantidadep2+1
+
+		}
+
+
+
+		se(ec=="V" ou ec=="v")
+
+		{
+
+			quantidade3=quantidade3+idade
+
+			media=media+1
+
+			quantidadep1=quantidadep1+1
+
+		}
+
+		
+
+		
+
+		se(ec=="X" ou ec=="x")
+
+		{
+
+			quantidade=quantidade+1
+
+			quantidadep=quantidadep+1
+
+		}
+
+
+
+
+
+
+
+		contador++
+
+		}
+
+
+
+		se(quantidade3>0)
+
+		{
+
+			quantidade3=quantidade3/media
+
+		}
+
+
+
+		se(quantidade>=1)
+
+		{
+
+			quantidadetotal=quantidadep+quantidadep1+quantidadep2+quantidadep3
+
+			quantidade=quantidade*100/quantidadetotal
+
+		}
+
+
+
+		limpa()
+
+
+
+		escreva("A quantidade de pessoas casadas é de: "+quantidade1+" pessoas"+"\n")
+
+		escreva(" A quantidade de pessoas solteiras é de: "+quantidade2+" pessoas"+"\n")
+
+		escreva("A média das idades das pessoas viúvas é de: "+quantidade3+" anos"+"\n")
+
+		escreva("A porcentagem de pessoas separadas é de: "+quantidade+"%")
+
+	}
+
+}

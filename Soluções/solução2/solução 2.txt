@@ -1,0 +1,93 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		cadeia estado
+
+
+
+
+
+
+
+		escreva(Olá usuário a sigla de seu estado )
+
+		leia(estado)
+
+
+
+
+
+		se(estado==RJ ou estado==rj)
+
+		{
+
+			escreva(carioca)
+
+			retorne
+
+		}
+
+		
+
+		
+
+
+
+		se(estado==SP ou estado==sp)
+
+		{
+
+			escreva(paulista)
+
+			retorne
+
+			
+
+			
+
+		}
+
+		
+
+		se(estado==MG ou estado==mg)
+
+		{
+
+		escreva(mineiro)
+
+		retorne
+
+		}
+
+
+
+		senao
+
+		{
+
+			escreva(Outro estado)
+
+			retorne
+
+		}
+
+
+
+		
+
+		
+
+
+
+		
+
+	}
+
+}

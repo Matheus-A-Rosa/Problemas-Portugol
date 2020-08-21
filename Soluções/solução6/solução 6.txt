@@ -1,0 +1,191 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		inteiro idade, peso
+
+		inteiro peso1, peso2, peso3, peso4
+
+		inteiro media1, media2, media3, media4
+
+		inteiro contador=1
+
+
+
+
+
+		peso1=0
+
+		peso2=0
+
+		peso3=0
+
+		peso4=0
+
+
+
+		media1=0
+
+		media2=0
+
+		media3=0
+
+		media4=0
+
+
+
+		escreva("Olá usuário digite sua idade \n")
+
+
+
+		enquanto(contador <=15)
+
+		{
+
+		escreva("idade"+ " "+ contador+ ": ")
+
+		leia(idade)
+
+		se(idade<=0)
+
+		{
+
+			escreva("valor inválido tente novamente")
+
+			pare
+
+		}
+
+		escreva("peso"+ " "+ contador+ ": ")
+
+		leia(peso)
+
+
+
+		se(idade>=1 e ou idade<=10)
+
+		{
+
+			peso1=peso1+peso
+
+			media1=media1+1
+
+		}
+
+
+
+		se(idade>=11 e ou idade<=20)
+
+		{
+
+			peso2=peso2+peso
+
+			media2=media2+1
+
+		}
+
+
+
+		se(idade>=21 e ou idade<=30)
+
+		{
+
+			peso3=peso3+peso
+
+			media3=media3+1
+
+		}
+
+
+
+			se(idade>=31)
+
+		{
+
+			peso4=peso4+peso
+
+			media4=media4+1
+
+		}
+
+		contador++
+
+		}
+
+		
+
+
+
+		
+
+
+
+		se(peso1>0)
+
+		{
+
+			peso1=peso1/media1
+
+		}
+
+		
+
+
+
+		se(peso2>0)
+
+		{
+
+			peso2=peso2/media2
+
+		}
+
+
+
+		se(peso3>0)
+
+		{
+
+			peso3=peso3/media3
+
+		}
+
+
+
+		se(peso4>0)
+
+		{
+
+			peso4=peso4/media4
+
+		}
+
+		limpa()
+
+		escreva("A média de peso das pessoas de 1 até 10 anos foi de: "+peso1+"\n")
+
+
+
+		escreva("A média de peso das pessoas de 11 até 20 anos foi de: "+peso2+"\n")
+
+
+
+		
+
+		escreva("A média de peso das pessoas de 21 até 30 anos foi de: "+peso3+"\n")
+
+
+
+		
+
+		escreva("A média de peso das pessoas de 31 anos ou mais foi de: "+peso4+"\n")
+
+	}
+
+}

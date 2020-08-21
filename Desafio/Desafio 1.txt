@@ -1,0 +1,83 @@
+programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		cadeia (plv1,plv2,plv3,plv4)
+
+		cadeia nome
+
+		escreva("Olá escreva seu nome: ")
+
+		leia(nome)
+
+		escreva("Olá " ,nome, " Vamos criar sua História Maluca ok?: ")
+
+		leia(nome)
+
+		limpa()
+
+		escreva("Escreva um substantivo feminino: ")
+
+		leia(plv1)
+
+		escreva("Escreva um substantivo masculino: ")
+
+		leia(plv2)
+
+		escreva("Escreva um adjetivo masculino: ")
+
+		leia(plv3)
+
+		escreva("Escreva um verbo no passado: ")
+
+		leia(plv4)
+
+		limpa()
+
+
+
+		//Sugiro usar essa sequência de palavras: dama, céu, lindo e viajou
+
+
+
+		escreva("Muito bem " ,nome, " deixe eu te contar uma história:\n")
+
+		
+
+		
+
+		escreva("A " ,plv1, " cruzou os sete mares\n")
+
+		escreva("Conheceu o " ,plv2, "\n")
+
+		escreva("E de um jeito " ,plv3, ", por todo lugar que a ",plv1, " " ,plv4, "\n")
+
+		escreva("O " ,plv2, " certamente estaria pensando nela")
+
+		leia(plv2)
+
+		
+
+		
+
+		
+
+
+
+		
+
+		
+
+		
+
+		
+
+	}
+
+}
